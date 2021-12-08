@@ -65,6 +65,8 @@
         app:layout_constraintTop_toTopOf="@+id/image_view_hours" />
 
     <ImageView
+        android:clickable="true"
+        android:onClick="createPhoneIntent"
         android:id="@+id/image_view_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
